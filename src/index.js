@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-// const mongoose = require('mongoose');
+// import mongoose from 'mongoose';
 // import {DB_NAME} from "./constants";
 import connectToDb from "./db/index.js";
 
@@ -13,7 +13,7 @@ connectToDb()
 
 
 
-/*const express = require('express');
+/*import express from 'express';
 const app = express();
 
 
@@ -35,4 +35,4 @@ const connectedToDb = async()=>{
   }
 }
 
-module.exports = connectedToDb;*/
+export default connectedToDb;*/
